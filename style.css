@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+#tieu-de {
+    margin-top: 100px;
+    text-align: center;
+    color: red;
+}
+
+#mo-ta {
+    margin-top: 10px;
+    text-align: center;
+    color: blue;
+}
+
+#lua-chon {
+    display: block;
+    margin: 20px auto;
+    padding: 5px 5px;
+    width: 32px;
+    background-color: rgb(51, 223, 51);
+    color: #000;
+    border: none;
+    outline: none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+.lua-chon {
+    display: flex;
+    justify-content: center;
+}
+
+#xac-nhan {
+    margin-right: 5px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: purple;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Roboto Slab', serif;
+}
+
+#bo-cuoc {
+    margin-left: 5px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: purple;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+}
+
+#xac-nhan:hover {
+    opacity: 0.8;
+}
+
+#bo-cuoc:hover {
+    opacity: 0.8;
+}
+
+#so-lan-doan {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#thong-bao {
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+}
+
+#choi-lai {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(128, 58, 0);
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+}
+
+#choi-lai:hover {
+    opacity: 0.8;
+}
